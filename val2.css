@@ -1,0 +1,220 @@
+/* nav */
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.nav1 {
+    background-color: black;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #241e1e;
+}
+
+a {
+    color: #fff;
+    background-color: #241e1e;
+}
+
+a:hover {
+    color: bisque;
+}
+
+
+/* header */
+
+
+header {
+    background-color: #0c0701;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+
+}
+
+/* section 1 */
+
+.quote {
+    padding-top: 41%;
+}
+
+h3 {
+    color: antiquewhite;
+
+}
+
+h4 {
+    color: antiquewhite;
+    font-style: italic
+}
+
+.section1 {
+    background-image: url(media/elephant.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* section 2 */
+
+.section2 {
+    background-image: url(media/savanne.jpg);
+    opacity: 0.9;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.zebras {
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    transform: rotate(15deg);
+    max-width: 16%;
+}
+
+.giraffes {
+    position: absolute;
+    left: 15%;
+    top: 40%;
+    transform: rotate(-10deg);
+    max-width: 16%;
+}
+
+.antilope {
+    position: absolute;
+    right: 10%;
+    top: 20%;
+    transform: rotate(15deg);
+    max-width: 16%;
+}
+
+.rhino {
+    position: absolute;
+    right: 7%;
+    top:60%;
+    transform: rotate(15deg);
+    max-width: 16%;
+}
+
+.guepards {
+    position: absolute;
+    right: 15%;
+    top: 40%;
+    transform: rotate(-10deg);
+    max-width: 16%;
+}
+
+h1 {
+    color: #fff;
+    padding-top: 3em;
+    padding-bottom: 1em;
+}
+
+.titre {
+    padding-top: 8em;
+
+}
+
+.para {
+    font-size: 15px;
+}
+
+p {
+    color: antiquewhite;
+    font-size: 24px;
+}
+
+/* footer */
+
+footer {
+    background-color: #0c0701;
+}
+
+
+/* formulaire */
+.section3 {
+    background-image: url(media/arbre.jpg);
+    opacity: 0.7;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+h2 {
+    color: rgb(223, 222, 231);
+
+    margin-bottom: 2%;
+    font-style: fahkwan;
+}
+
+.formulaire {
+    background-color: #0c0701;
+    opacity: 0.9;
+    width: 100%;
+    border-radius: 5%;
+    padding-left: 4em;
+    padding-right: 4em;
+
+}
+
+.form-group {
+    padding-top: 20px;
+}
+
+
+label {
+    color: azure
+}
+
+legend {
+    color: azure
+}
+
+.btn-primary {
+    background-color: #fca541;
+    border-color: #fca541;
+    border-radius: 10%;
+    width: 100px;
+    border-color:  #fca541;
+    color:#0c0701;
+    font-weight: 700;
+
+}
+
+.btn-primary:hover {
+
+    background-color: #f58c0be7;
+    color: antiquewhite;
+    left: 50%;
+}
+
+.btn-primary:active {
+    background-color: #f58c0be7;
+    color: antiquewhite;
+    left: 50%;
+
+}
+
+.swal-button {
+    background-color: #fca541;
+}
+
+.swal-button:active {
+    background-color: #fca541;
+}
