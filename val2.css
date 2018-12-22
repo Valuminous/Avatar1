@@ -76,45 +76,7 @@ h4 {
     position: relative;
 }
 
-.zebras {
-    position: absolute;
-    left: 10%;
-    top: 20%;
-    transform: rotate(15deg);
-    max-width: 16%;
-}
 
-.giraffes {
-    position: absolute;
-    left: 15%;
-    top: 40%;
-    transform: rotate(-10deg);
-    max-width: 16%;
-}
-
-.antilope {
-    position: absolute;
-    right: 10%;
-    top: 20%;
-    transform: rotate(15deg);
-    max-width: 16%;
-}
-
-.rhino {
-    position: absolute;
-    right: 7%;
-    top:60%;
-    transform: rotate(15deg);
-    max-width: 16%;
-}
-
-.guepards {
-    position: absolute;
-    right: 15%;
-    top: 40%;
-    transform: rotate(-10deg);
-    max-width: 16%;
-}
 
 h1 {
     color: #fff;
@@ -123,7 +85,7 @@ h1 {
 }
 
 .titre {
-    padding-top: 8em;
+    padding-top: 12em;
 
 }
 
